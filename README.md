@@ -1,23 +1,22 @@
 # Hospitality-DataAnalysis-Using-Python
 
-In the fast-paced world of luxury hotels, AtliQ Grands faced revenue challenges that threatened its market share. As an aspiring Data Analyst, I embarked on a journey to transform the fortunes of this prestigious 5-star hotel chain in India.
+𝗔𝘁𝗹𝗶𝗤 𝗚𝗿𝗮𝗻𝗱𝘀: 𝗗𝗮𝘁𝗮-𝗗𝗿𝗶𝘃𝗲𝗻 𝗜𝗻𝘀𝗶𝗴𝗵𝘁𝘀 𝗳𝗼𝗿 𝗮 𝟱-𝗦𝘁𝗮𝗿 𝗛𝗼𝘁𝗲𝗹 𝗖𝗵𝗮𝗶𝗻
 
-Here's a quick glimpse of some noteworthy facts about AtliQ Grands:
+𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄:
+In the competitive world of luxury hotels, AtliQ Grands, a 5-star hotel chain in India, was facing revenue challenges that risked its market position. As a Data Analyst, I took on the challenge to use data-driven insights to support smarter decision-making and help transform the fortunes of this esteemed hotel chain.
 
-➡️AtliQ Grands proudly stands as a five-star hotel chain with a presence in four bustling cities.
+𝗔𝗯𝗼𝘂𝘁 𝗔𝘁𝗹𝗶𝗤 𝗚𝗿𝗮𝗻𝗱𝘀:
 
-➡️Across these urban hubs, AtliQ Grands boasts a network of seven distinct properties, strategically situated to cater to diverse clientele.
+•	AtliQ Grands operates in four major cities, with a network of seven upscale properties strategically located to cater to a diverse clientele.
+•	The hotels offer four room categories: Elite, Premium, Presidential, and Standard, providing tailored experiences for guests.
+•	Reservations are available on six popular booking platforms, ensuring convenient and accessible booking options for guests.
 
-➡️Within these upscale properties, guests are offered a choice of four room categories: Elite, Premium, Presidential, and Standard, ensuring a tailored experience for every visitor.
+𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗦𝗰𝗼𝗽𝗲:
+My goal was to conduct an in-depth exploratory data analysis to reveal booking trends, identify high-performing properties, and uncover areas for revenue optimization. I used several datasets in this analysis:
 
-➡️To enhance guest convenience, AtliQ Grands offers reservations through six prominent booking platforms, optimizing accessibility and ease of booking.
+•	𝗱𝗶𝗺_𝗱𝗮𝘁𝗲: Includes date-related details such as week numbers and day types (weekday/weekend). This table was essential for analyzing booking patterns over time.
+•	𝗱𝗶𝗺_𝗵𝗼𝘁𝗲𝗹𝘀: Contains information on property ID, name, category, and city. This dataset helped us understand the characteristics of each property.
+•	𝗱𝗶𝗺_𝗿𝗼𝗼𝗺𝘀: Details room IDs and room classes, providing insight into room popularity and profitability.
+•	𝗳𝗮𝗰𝘁_𝗮𝗴𝗴𝗿𝗲𝗴𝗮𝘁𝗲𝗱_𝗯𝗼𝗼𝗸𝗶𝗻𝗴𝘀: A fact table with data on property ID, check-in dates, room categories, successful bookings, and capacity, used to calculate key metrics on occupancy and bookings.
 
-Project Scope: My mission was clear - to harness the power of data and perform exploratory data analysis that would pave the way for smarter decision-making at AtliQ Grands. To achieve this, we leveraged several datasets:
-
-dim_date - This table contains date-related information, such as dates, week numbers, and day types (weekend and weekday). We utilized this data to analyze booking trends over time.
-
-dim_hotels - This table provided crucial details about the properties, including property ID, property name, category, and cities. It was essential for understanding the hotel chain's properties and their characteristics.
-
-dim_rooms - This table included information about room IDs and room classes. We used this data to analyze which types of rooms were more popular or profitable.
-
-fact_aggregated_bookings - This fact table contained data related to property ID, check-in dates, room categories, successful bookings, and capacity. It served as a crucial source for calculating key metrics related to bookings and occupancy.
+Through this analysis, we aimed to provide actionable insights to drive revenue growth and maintain AtliQ Grands’ prestigious market standing.
